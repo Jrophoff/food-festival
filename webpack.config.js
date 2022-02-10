@@ -5,14 +5,14 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './assets/js/script.js',
-    events: './assets/js/events.js',
-    schedule: './assets/js/schedule.js',
-    tickets: './assets/js/tickets.js',
+    app: './public/assets/js/script.js',
+    events: './public/assets/js/events.js',
+    schedule: './public/assets/js/schedule.js',
+    tickets: './public/assets/js/tickets.js',
   },
   output: {
     filename: '[name].bundle.js',
-    path: __dirname + '/dist',
+    path: __dirname + '/public/dist',
   },
   module: {
     rules: [
