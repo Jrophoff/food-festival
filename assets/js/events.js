@@ -40,5 +40,7 @@ if (window.location.href.indexOf('event') > -1) {
       )
     )
   );
+  console.log(pageEl);
+  console.log(containerEl);
   pageEl.appendChild(containerEl);
 }

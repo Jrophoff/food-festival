@@ -43,10 +43,10 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
     }),
-    new BundleAnalyzerPlugin({
-      // the report outputs to an HTML file in the dist folder
-      analyzerMode: 'static',
-    }),
+    // new BundleAnalyzerPlugin({
+    //   // the report outputs to an HTML file in the dist folder
+    //   analyzerMode: 'static',
+    // }),
   ],
   mode: 'development',
 };
